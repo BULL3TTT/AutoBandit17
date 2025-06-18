@@ -29,7 +29,12 @@ Este script en Bash automatiza la resolución del nivel 16 del wargame Bandit de
 
 ## Uso
 
-1. **Ejecutar el script:**
+1. **Asignar permisos de ejecución:**
+   - Asignar permisos de ejecución al archivo AutoBandit16.sh
+      ```bash
+     chmod +x AutoBandit16.sh
+     ```
+3. **Ejecutar el script:**
    - Asegúrate de tener instaladas las herramientas necesarias (`sshpass`, `ncat`, `openssl`).
    - Ejecuta el script en tu terminal:
 
@@ -37,7 +42,7 @@ Este script en Bash automatiza la resolución del nivel 16 del wargame Bandit de
      ./AutoBandit16.sh
      ```
 
-2. **Obtener la contraseña de Bandit17:**
+4. **Obtener la contraseña de Bandit17:**
    - Una vez ejecutado el script, la contraseña para Bandit17 se mostrará en la salida de la terminal.
 
 ## Notas
